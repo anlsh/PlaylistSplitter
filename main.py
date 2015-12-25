@@ -83,6 +83,4 @@ if __name__ == "__main__":
 
                 if match_code is not None:
 
-                    #ta.post_video(item["snippet"]["resourceId"]["videoId"], event_code, match_code)
-
-                    print(item["snippet"]["resourceId"]["videoId"], event_code, match_code)
+                    ta.post_video(item["snippet"]["resourceId"]["videoId"], event_code, match_code)
